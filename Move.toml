@@ -1,0 +1,15 @@
+[package]
+name = "Simple-On-Chain-Game"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x7f38ca97dc0f1b09ae605b1f2256cf2b09d82e63260d8898f59a621b4924fd66"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
